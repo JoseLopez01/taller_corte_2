@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data = pd.read_csv("weatherAUS.csv")[:2000]
+data = pd.read_csv("weatherAUS.csv")
 
 data.drop(
     [
